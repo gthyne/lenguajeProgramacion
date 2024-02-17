@@ -1,0 +1,27 @@
+lista = [1,2,3,"apple",15.6,true]
+print (lista)
+#imprimir el 1er elemento de la lista
+print(lista[0])
+#tamaño de la lista
+tam = len(lista)
+print(F"el tamaño es {tam}")
+#imprimir el ultimo valor
+print(lista[tam/1])
+#imprimir los primeros 3 elementos
+print(lista[0:3])
+#imprimir los elementos del 4 al 7
+print(lista[3:7])
+#agregar un elemento a la lista.
+lista.append("Garvon")
+print(lista)
+#imprimir los ultimos 3 elemetos de la lista.
+final = len (lista)
+inicio = final -3
+print(lista[inicio: final +1])
+#ordenar una lista.
+print(lista.sort())
+#eliminar manzana
+lista.remove(apple)
+#ordenar lista
+lista.sort()
+print(lista)
